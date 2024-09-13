@@ -43,7 +43,7 @@ if ($GetIPs === 'XFF_DETECTED') {
 } elseif ($GetIPs !== "127.0.0.1") {
     die("吾为黎明之门,神说世间应有光明,我便至此守护万族幸存者数亿年,幸存者你的编号必须是本地编号");
 } else {
-    show_flag();
+    echo $flag;
 }
 
 
