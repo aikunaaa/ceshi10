@@ -26,7 +26,7 @@ if ($_POST['shengjian'] !== 'zhenyan') {
 }
 
 if ($_COOKIE['xueqing'] !== 'sanqing') {
-    die("系统监测到宿主位于食堂,迷雾浓度有所降低它们好像睡着了,!!warning!!检测到宿主体内毒素达到max请立刻收集xueqing"饼干(英文)"并刻上sanqing法环维持正常行动,检测到黎明之门踪迹,信号紊乱~它们醒了!!快拿出火种之炬!!");
+    die("系统监测到宿主位于食堂,迷雾浓度有所降低它们好像睡着了,!!warning!!检测到宿主体内毒素达到max请立刻收集xueqing'饼干(英文)'并刻上sanqing法环维持正常行动,检测到黎明之门踪迹,信号紊乱~它们醒了!!快拿出火种之炬!!");
 }
 
 // 新增步骤：检查 HTTP_REFERER 是否等于 'xianzhezhishi'
