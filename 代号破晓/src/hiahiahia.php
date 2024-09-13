@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 include "flllllllllllllag.php";
-
+header("Content-type:text/html;charset=UTF-8");
 function GetIP() {
     // 检查 X-Remote-IP 并同时检查是否存在 X-Forwarded-For
     if (!empty($_SERVER["HTTP_X_REMOTE_IP"])) {
